@@ -1,4 +1,4 @@
-FROM node:18.13.0-alpine3.17
+FROM node:18.18.1-alpine3.17
 
 EXPOSE 3001
 RUN apk update && apk add --no-cache bash
